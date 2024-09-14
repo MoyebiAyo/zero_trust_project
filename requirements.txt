@@ -1,5 +1,5 @@
-Flask==
-pyotp==
-tensorflow==
-tensorflow-federated==
-pycryptodome==
+Flask==2.0.2
+pyotp==2.6.0
+tensorflow==2.12.0
+tensorflow-federated
+pycryptodome==3.10.1
