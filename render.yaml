@@ -1,4 +1,6 @@
 services:
   - name: zero-trust-app
+    type: web
+    env: python  # Ensure Render uses Python as the environment
     buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: python app.py
