@@ -1,0 +1,4 @@
+services:
+  - name: zero-trust-app
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python app.py
